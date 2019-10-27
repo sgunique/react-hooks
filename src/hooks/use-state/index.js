@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./hooks.css";
+import "./use-state.css";
 
-function Hooks() {
+function UseStateHook() {
   const [ count, setCount ] = useState(0);
 
     return (
@@ -14,4 +14,4 @@ function Hooks() {
     );
 }
 
-export default Hooks;
+export default UseStateHook;

@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
-import Hooks from "./hooks";
+// import { useStateHook } from "../hooks";
+import { UseEffectHook } from "../hooks";
 
 export default class App extends React.Component {
 
   render() {
     return (
       <div>
-        <Hooks />
+        {/* <useStateHook /> */}
+        <UseEffectHook />
       </div>
     );
   }
